@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9788571-6269-484b-9cf7-31bd076b553c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kimminseock&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kimminseock/Team-Project-Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;feb6d1d3-ff3f-4fbc-bdea-714bd397bfdc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pm4hUZQ6ZiUB55EKGK6Us8O0sd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/WebstormProjects/react_paylog1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\react_paylog1\src\pages" />
+      <recent name="C:\kimminseock\react_paylog\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\react_paylog1\src\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9788571-6269-484b-9cf7-31bd076b553c" name="Changes" comment="" />
+      <created>1733358035529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733358035529</updated>
+      <workItem from="1733358036584" duration="28361000" />
+      <workItem from="1733442771263" duration="26619000" />
+      <workItem from="1733472228483" duration="1718000" />
+      <workItem from="1733493553852" duration="1861000" />
+      <workItem from="1733498844809" duration="2609000" />
+      <workItem from="1733572764115" duration="2366000" />
+      <workItem from="1733579438347" duration="8111000" />
+      <workItem from="1733622582423" duration="105000" />
+      <workItem from="1733660066487" duration="6421000" />
+      <workItem from="1733671077057" duration="1082000" />
+      <workItem from="1733674166741" duration="3096000" />
+      <workItem from="1733677554078" duration="1832000" />
+      <workItem from="1733753722815" duration="7602000" />
+      <workItem from="1733764195723" duration="1224000" />
+      <workItem from="1733840505474" duration="7861000" />
+      <workItem from="1733849728856" duration="238000" />
+      <workItem from="1733922438439" duration="30000" />
+      <workItem from="1733922519372" duration="149000" />
+      <workItem from="1733922766520" duration="6323000" />
+      <workItem from="1733930803446" duration="11000" />
+      <workItem from="1733931017801" duration="95000" />
+      <workItem from="1734017127934" duration="15000" />
+      <workItem from="1734017183507" duration="4790000" />
+      <workItem from="1734022050951" duration="170000" />
+      <workItem from="1734232473853" duration="1265000" />
+      <workItem from="1734265954000" duration="104000" />
+      <workItem from="1734267415397" duration="5020000" />
+      <workItem from="1734272510595" duration="58000" />
+      <workItem from="1734272595867" duration="5000" />
+      <workItem from="1734272648849" duration="17000" />
+      <workItem from="1734274450624" duration="1991000" />
+      <workItem from="1734277242990" duration="26000" />
+      <workItem from="1734354918809" duration="172000" />
+      <workItem from="1736156573632" duration="108000" />
+      <workItem from="1736176429420" duration="93000" />
+      <workItem from="1737895487406" duration="3179000" />
+      <workItem from="1737898835084" duration="1115000" />
+      <workItem from="1737900009743" duration="122000" />
+      <workItem from="1737900236482" duration="211000" />
+      <workItem from="1737900487432" duration="873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,145 @@
+.AccountFilter {
+    background: #fff;
+}
+
+.AccountFilter .calendar-wrapper {
+    padding: 27px 20px 25px 20px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountFilter button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.AccountFilter .calendar-button:first-of-type {
+    margin-right: 3px;
+}
+
+.AccountFilter .calendar-button:last-of-type {
+    margin-left: 3px;
+}
+
+.AccountFilter .calendar-month {
+    padding-bottom: 3px;
+    font-size: 26px;
+}
+
+.AccountFilter .content {
+    padding: 0 20px;
+}
+
+.AccountFilter .content h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.AccountFilter .content h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.AccountFilter .filter-wrapper {
+    padding: 25px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountFilter .filter-wrapper button {
+    padding: 0 15px;
+    height: 32px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius : 16px;
+    cursor: pointer;
+}
+
+.AccountFilter .filter-wrapper button.active {
+    background: #574BED;
+    color: #fff;
+    border: none;
+}
+
+.AccountFilter .filter-wrapper .button-wrapper {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.AccountFilter .filter-wrapper input[type=checkbox] {
+    accent-color: #574BED;
+    margin-right: 5px;
+}
+
+
+.AccountFilter .filter-result {
+    padding: 23px 0;
+}
+
+.AccountFilter .filter-result-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.AccountFilter .filter-result-item .date {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.AccountFilter .filter-result-item span {
+    display: block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #666;
+    background: #efefef;
+    text-align: center;
+}
+
+.AccountFilter .filter-result-item img {
+    padding: 10px;
+    width: 50px;
+    background: #F1F2F5;
+    border-radius: 25px;
+}
+
+.AccountFilter .filter-result-item-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.AccountFilter .filter-result-item-info > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.AccountFilter .filter-result-item-info > div .divider {
+    width: 1px;
+    height: 14px;
+    background: #d6d6d6;
+}
+
+.AccountFilter .filter-result-item-info > div > p:nth-of-type(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+
+.AccountFilter .filter-result-item-info > div p:nth-of-type(3) {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.AccountFilter .filter-result-item-info > p {
+    font-size: 14px;
+    color: #aaa;
+}

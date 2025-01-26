@@ -1,0 +1,43 @@
+/* 기본 스타일 */
+.BottomNavigation {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    padding: 0 27px;
+    /*임시 값 - 모바일 버전*/
+    width: 375px;
+    height: 73px;
+    background: #fff;
+    border-top: 1px solid #D6D6D6;
+}
+
+.BottomNavigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BottomNavigation ul li {
+    padding-top: 13px;
+}
+
+.BottomNavigation li img {
+    display: inline-block;
+}
+.BottomNavigation li a{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.BottomNavigation li a.active {
+    font-weight: bold;
+    color: #222;
+}
+
+/* 기본 비활성 상태 */
+.BottomNavigation li a.inactive {
+    color: #aaa;
+}
+

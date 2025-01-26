@@ -1,0 +1,80 @@
+.AccountEdit {
+    position: relative;
+    background: #fff;
+    height: 100vh;
+}
+
+.AccountEdit button {
+    border: none;
+    background: none;
+}
+
+.AccountEdit .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 20px 25px 20px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountEdit .title h2 {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.AccountEdit .title button {
+    font-size: 18px;
+}
+
+.AccountEdit .content {
+    padding: 25px 20px;
+    background: #fff;
+}
+
+.AccountEdit .content input,
+.AccountEdit .content textarea,
+.AccountEdit .content select {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountEdit .content div > div {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.AccountEdit .content input:focus,
+.AccountEdit .content textarea:focus,
+.AccountEdit .content select:focus {
+    outline: none;
+}
+
+.AccountEdit .content input:focus {
+    border-bottom: 1px solid #574BED;
+}
+
+.AccountEdit .button-wrapper {
+    display: flex;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.AccountEdit .button-wrapper button {
+    margin-top: 25px;
+    width: 100%;
+    height: 55px;
+    background: #574BED;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.AccountEdit .button-wrapper button:first-of-type {
+    background: #fff;
+    color: #222;
+    border: 1px solid #222;
+}

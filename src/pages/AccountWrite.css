@@ -1,0 +1,44 @@
+.AccountWrite {
+	position: relative;
+	background: #fff;
+	height: 100vh;
+}
+
+.AccountWrite button {
+	border: none;
+	background: none;
+}
+
+.AccountWrite .title {
+	padding: 27px 20px 25px 20px
+}
+
+.AccountWrite .title h2 {
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.AccountWrite .button-wrapper {
+	display:flex;
+	gap: 32px;
+	justify-content: space-between;
+	padding: 0 16px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountWrite .button-wrapper button {
+	display: block;
+	flex-grow: 1;
+	height: 55px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #aaa;
+	background: #fff;
+}
+
+.AccountWrite .button-wrapper button.active{
+	color: #222;
+	border-bottom: 4px solid #574BED;
+}

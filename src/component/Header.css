@@ -1,0 +1,68 @@
+.Header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px 20px 20px;
+    background: #fff;
+}
+
+.Header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 28px;
+    cursor: pointer;
+}
+
+.Header .menubar {
+    cursor: pointer;
+}
+
+/* 사이드바 스타일 */
+.Header .sidebar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /*width: 70%; !* 전체 화면의 70% *!*/
+    /*임시 값 - 모바일 버전*/
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%); /* 기본 상태에서 화면 밖으로 이동 */
+    transition: transform 0.3s ease-in-out; /* 열고 닫을 때 부드럽게 */
+}
+
+.Header .sidebar.open {
+    transform: translateX(0); /* 열리면 화면에 표시 */
+}
+
+.Header .sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Header .sidebar li {
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+/* 화면 전체를 덮는 오버레이 */
+.Header .overlay {
+    position: fixed;
+    z-index: 99; /* 사이드바보다 뒤에 */
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+    /*임시 값 - 모바일 버전*/
+    width: 375px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+

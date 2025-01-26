@@ -1,0 +1,60 @@
+.StatisticsIncome {
+    padding-bottom: 73px;
+    background: #fff;
+}
+.StatisticsIncome .graph-wrapper {
+    position: relative;
+    padding: 55px 0 40px 0;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.StatisticsIncome .income-list {
+    padding: 0 16px;
+
+}
+
+.StatisticsIncome .income-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.StatisticsIncome .income-list ul li > div {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.StatisticsIncome .income-list .color-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+}
+
+.StatisticsIncome .income-list ul li .percent {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.StatisticsIncome .income-list ul li .income {
+    font-size: 18px;
+}
+
+.StatisticsIncome .click-data {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.StatisticsIncome .click-data,
+.StatisticsIncome .click-data-default {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+

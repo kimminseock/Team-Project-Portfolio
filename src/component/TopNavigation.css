@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* TopNavigation.css */
+
+.TopNavigation {
+    background: #fff;
+    padding: 0 16px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.TopNavigation ul {
+    display: flex; /* 플렉스 박스 레이아웃 */
+    justify-content: space-between;
+}
+
+.TopNavigation li {
+    /* 항목 간의 간격 */
+    width: 25%;
+    text-align: center;
+}
+
+.TopNavigation a {
+    display: block;
+    padding: 18px 0 16px 0;
+    margin: auto;
+    width: 95%;
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    color: #AAA; /* 기본 텍스트 색상 */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.TopNavigation a.active {
+    color: #222; /* 활성화된 링크의 색상 */
+    font-weight: bold; /* 활성화된 링크의 두께 */
+    border-bottom: solid 4px #574BED;
+}

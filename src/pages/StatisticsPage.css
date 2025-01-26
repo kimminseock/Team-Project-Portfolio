@@ -1,0 +1,27 @@
+.StatisticsPage {
+    background: #fff;
+}
+
+.StatisticsPage .button-wrapper {
+    display:flex;
+    gap: 32px;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.StatisticsPage .button-wrapper button {
+    display: block;
+    flex-grow: 1;
+    height: 55px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #aaa;
+    background: #fff;
+}
+
+.StatisticsPage .button-wrapper button.active{
+    color: #222;
+    border-bottom: 4px solid #574BED;
+}

@@ -1,0 +1,49 @@
+.WriteExpense {
+	padding: 25px 20px;
+	background: #fff;
+}
+
+.WriteExpense form input,
+.WriteExpense form textarea,
+.WriteExpense form select {
+	width: 100%;
+	padding: 8px 0;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.WriteExpense .input-empty,
+.WriteExpense form input::placeholder,
+.WriteExpense form textarea::placeholder {
+	color: #aaa;
+}
+
+.WriteExpense .input-filled,
+.WriteExpense option {
+	color: #222;
+}
+
+.WriteExpense form div {
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+.WriteExpense form input:focus,
+.WriteExpense form select:focus,
+.WriteExpense form textarea:focus {
+	outline: none;
+}
+
+.WriteExpense form input:focus {
+	border-bottom: 1px solid #574BED;
+}
+
+.WriteExpense button[type="submit"] {
+	margin-top: 25px;
+	width: 100%;
+	height: 55px;
+	background: #574BED;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 8px;
+}

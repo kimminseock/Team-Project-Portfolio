@@ -1,0 +1,139 @@
+/* 각 날짜 항목 스타일 */
+.AccountDaily {
+    padding-bottom: 165px;
+    background: #fff;
+}
+
+.App {
+    position: relative;
+}
+
+.empty-data-wrapper {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    background-color: #F1F2F5;
+    width: 100%;
+    height: 100vh;
+}
+
+.empty-data {
+    position: relative;
+    top: 55%;
+    color: #C6C6C6;
+    text-align: center;
+}
+
+.empty-data img {
+    margin: 15px auto;
+    opacity: 35%;
+}
+
+.AccountDaily .data-daily {
+    padding: 0 20px;
+    background: #fff;
+    border-bottom: 5px solid #F1F2F5;
+}
+
+.AccountDaily .data-daily:last-child {
+    border-bottom: none;
+}
+
+.AccountDaily .data-daily-sum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 25px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.AccountDaily .data-daily-sum h3 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*수정*/
+.AccountDaily .data-daily-sum h3 span {
+    display: block;
+    margin-top: 5px;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #666;
+    background: #efefef;
+    text-align: center;
+}
+
+.AccountDaily .data-daily-sum p {
+    display: flex;
+    flex: 1;
+    text-align: right;
+}
+
+/* 2024-12-13 수정 - 일정 길이 이상의 숫자는 ellipsis 처리 */
+.AccountDaily .data-daily-sum p > span {
+    display: block;
+    width: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+.AccountDaily .data-daily-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.AccountDaily .data-daily-item .icon img {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+}
+
+.AccountDaily .data-daily-item-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.AccountDaily .data-daily-item-info > div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.AccountDaily .data-daily-item-info > div > p:first-of-type {
+    font-size: 14px;
+}
+
+.AccountDaily .data-daily-item-info > div > .divider {
+    width: 1px;
+    height: 14px;
+    background: #d6d6d6;
+}
+
+.AccountDaily .data-daily-item-info > div > p:nth-of-type(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    max-width: 130px;
+}
+
+.AccountDaily .data-daily-item-info > div p:nth-of-type(3) {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.AccountDaily .data-daily-item-info > p {
+    font-size: 14px;
+    color: #aaa;
+}

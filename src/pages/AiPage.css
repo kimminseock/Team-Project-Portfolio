@@ -1,0 +1,106 @@
+.AiPage {
+    padding: 80px 0 133px 0;
+    background: #fff;
+}
+
+.AiPage .chat-container,
+.AiPage .input-container {
+    /*width: 100%;*/
+    /*임시 값 - 모바일 버전*/
+    width: 375px;
+}
+
+.AiPage .intro {
+    padding: 20% 20px 0 20px;
+}
+
+.AiPage .intro h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.AiPage .intro div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 10px auto;
+    padding-left: 15px;
+    width: 65%;
+    height: 44px;
+    border: 1px solid #d9d9d9;
+    border-radius: 22px;
+    font-size: 15px;
+}
+
+.chat-container{
+    padding: 0 20px;
+    margin: 0 auto;
+    border: none;
+    /*overflow-y: scroll;*/
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container p {
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.chat-container p.user {
+    align-self: end;
+    text-align: right;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px 0 30px 30px;
+}
+
+.chat-container p.assistant {
+    align-self: start;
+    width: 90%;
+    text-align: left;
+    background-color: #eaeaea;
+    color: #666;
+    border-radius: 0 30px 30px 30px;
+}
+
+.input-container {
+    position: fixed;
+    z-index: 10;
+    bottom: 73px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    height: 70px;
+    background: #fff;
+}
+
+.input-container input[type="text"] {
+    padding-left: 20px;
+    width: 100%;
+    background: #e6e6e6;
+    border-radius: 30px;
+    border: none;
+}
+
+.input-container button {
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    transform: translateY(50%);
+    padding: 10px;
+    width: 38px;
+    height: 38px;
+    background-color: #574BED;
+    border-radius: 19px;
+    border: none;
+    color: #999999;
+    cursor: pointer;
+}

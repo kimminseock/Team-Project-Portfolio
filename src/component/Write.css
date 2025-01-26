@@ -1,0 +1,19 @@
+.Write .income-button {
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    left: 290px;
+    bottom: 90px;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #574BED;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.Write .income-button img {
+    display: inline-block;
+    line-height: 32px;
+}

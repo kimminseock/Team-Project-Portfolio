@@ -1,0 +1,91 @@
+.AccountSearch {
+    background-color: #fff;
+}
+
+.AccountSearch .search-result {
+    padding : 0 20px;
+}
+
+.AccountSearch .search-result .no-result,
+.AccountSearch .search-result .no-search {
+    color: #C6C6C6;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.AccountSearch .search-result-sum {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 20px 0;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.AccountSearch .search-result-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.AccountSearch .search-result-item .date {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.AccountSearch .search-result-item span {
+    display: block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #666;
+    background: #efefef;
+    text-align: center;
+}
+
+.AccountSearch .search-result .search-result-item img {
+    padding: 10px;
+    width: 50px;
+    background: #F1F2F5;
+    border-radius: 25px;
+}
+
+.AccountSearch .search-result-item-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.AccountSearch .search-result-item-info > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.AccountSearch .search-result-item-info > div .divider {
+    width: 1px;
+    height: 14px;
+    background: #d6d6d6;
+}
+
+.AccountSearch .search-result-item-info > div > p:nth-of-type(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+
+.AccountSearch .search-result-item-info > div p:nth-of-type(3) {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.AccountSearch .search-result-item-info > p {
+    font-size: 14px;
+    color: #aaa;
+}

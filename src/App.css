@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.App {
+  /*임시 값 - 모바일 버전*/
+  max-width: 375px;
+  height: calc(100vh);
+  background: #fff;
+}
+
+.App .header-container {
+  position: fixed;
+  z-index: 11;
+  /*임시 값 - 모바일 버전*/
+  width: 375px;
+}
+
+.main {
+  padding-top: 380px;
+}
+
+.main2 {
+  padding-top: 168px;
+
+}
+
+.main3 {
+  padding-top: 78px;
+}
+
+.main3 {
+  padding-top: 0;
+}
+
+
+
+

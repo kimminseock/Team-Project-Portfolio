@@ -2,7 +2,7 @@ import './HeaderContent.css';
 
 const HeaderContent = ({totalIncome, totalExpense}) => {
     return (
-        // 수정
+        // 수정 완
         <div className="HeaderContent">
             <div className="totalIncome">
                 <span>총 수입</span>

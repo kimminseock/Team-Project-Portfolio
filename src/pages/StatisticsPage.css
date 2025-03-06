@@ -17,8 +17,8 @@
     border: none;
     font-size: 22px;
     font-weight: bold;
-    color: #aaa;
     background: #fff;
+    color: #aaa;
 }
 
 .StatisticsPage .button-wrapper button.active{

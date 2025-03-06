@@ -8,7 +8,7 @@ const AccountSeacrch = ({ data }) => {
     const handleSearch = (search) => {
         setSearchTerm(search); // 검색어 업데이트
 
-        // 검색어가 있는 경우 필터링, 없는 경우 빈 배열 유지
+        // 검색어가 있는 경우 필터링, 없는 경우 빈 배열 유지.
         if (search.trim() !== "") {
             const results = data.filter(item =>
                 item.memo?.includes(search) // 메모에 검색어가 포함되어 있는지 확인

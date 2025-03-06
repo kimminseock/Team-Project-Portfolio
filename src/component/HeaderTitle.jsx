@@ -65,7 +65,7 @@ const HeaderTitle = ({currentDate, onPrevMonth, onNextMonth}) => {
                     </button>
                 </Link>
             </div>
-            {/* 설명 창 */}
+            {/*설명 창*/}
             {isTooltip && (
                 <div className="tooltipModal">
                     일일 페이지에서 수입과 지출을 이렇게 확인하세요!<br/><br/>

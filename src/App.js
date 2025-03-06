@@ -54,7 +54,7 @@ function App() { // useLocation을 쓰기 위해 별도로 만든 함수
 
     // 파이어베이스에 저장할 데이터
     const dataPath = 'dataPath';
-    // 파이어베이스에 저장할 
+    // 파이어베이스에 저장할 데이터
     const budgetPath = 'budgetPath';
     // 컴포넌트가 마운트될 때 데이터 가져오기
     useEffect(() => {

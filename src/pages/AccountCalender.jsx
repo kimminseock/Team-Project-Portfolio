@@ -12,7 +12,7 @@ const AccountCalender = ({data, currentDate}) => {
     const daysInMonth = eachDayOfInterval({ start: startDate, end: endDate });
 
     // 날짜별 데이터를 매핑
-    // 데이터를 날짜별로 정리하여 dateMap이라는 객체
+    // 데이터를 날짜별로 정리, dateMap이라는 객체
     const dateMap = data.reduce((acc, item) => {
         const {date, income, expense} = item;
         // acc는 합산 객체

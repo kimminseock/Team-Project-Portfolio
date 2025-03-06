@@ -9,7 +9,7 @@ const SearchHeader = ({onSearch}) => {
     const handleChange = (e) => {
         const value = e.target.value;
         setSearch(value);
-        onSearch(value); // 검색어 전달
+        onSearch(value); // 검색어 전달.
     };
     const goBack = () => {
         navigate(-1)

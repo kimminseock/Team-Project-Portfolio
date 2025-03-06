@@ -12,8 +12,7 @@
     justify-content: space-between;
 }
 
-.TopNavigation li {
-    /* 항목 간의 간격 */
+.TopNavigation li { /* 항목 간의 간격 */
     width: 25%;
     text-align: center;
 }

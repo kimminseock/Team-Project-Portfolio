@@ -30,8 +30,8 @@
 .setting .setting_setting > div > p,
 .setting .setting_backup > div > p,
 .setting .setting_support > div > p {
-    font-size: 18px;
     color: #222;
+    font-size: 18px;
 }
 
 .setting .setting_backup > div > p {

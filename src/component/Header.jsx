@@ -27,7 +27,7 @@ const Header = () => {
                      style={{width: '25px'}}/>
             </p>
             <h1 className="logo" onClick={onSubmit}>
-                {/*241213 수정 - 로고 추가 */}
+                {/* 241213 수정 - 로고 추가 */}
                 <img alt="로고" src={require('../img/logo.png')}
                      style={{height: '28px'}}/>
             </h1>

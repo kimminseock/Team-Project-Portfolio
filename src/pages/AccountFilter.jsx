@@ -44,7 +44,7 @@ const AccountFilter = ({ data, currentDate, onPrevMonth, onNextMonth }) => {
     // HeaderTitle의 currentDate를 기준으로 데이터 필터링
     // data.filter: data 배열을 순회하며 조건에 맞는 항목만 남김
     const filteredData = data.filter((item) => {
-        // item.date: data 배열의 각 요소에서 date 속성을 가져옵니다
+        // item.date: data 배열의 각 요소에서 date 속성을 가져옵니다.
         // new Date(item.date):
         // 문자열 형식의 날짜를 JavaScript의 Date 객체로 변환.
         // 이를 통해 날짜 비교가 가능합니다.

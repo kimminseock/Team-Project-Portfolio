@@ -43,8 +43,8 @@
 }
 
 .StatisticsExpense .expense-list ul li .percent {
-    font-size: 14px;
     color: #aaa;
+    font-size: 14px;
 }
 
 .StatisticsExpense .expense-list ul li .expense {

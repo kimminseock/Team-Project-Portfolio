@@ -13,8 +13,8 @@
     justify-content: space-between;
     padding: 20px 34px 20px 20px;
     height: 90px;
-    background: #fff;
     border-bottom: 1px solid #d6d6d6;
+    background: #fff;
 }
 
 .AccountMonth .account-month-sum h2 {

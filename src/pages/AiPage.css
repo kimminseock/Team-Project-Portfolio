@@ -6,7 +6,7 @@
 .AiPage .chat-container,
 .AiPage .input-container {
     /*width: 100%;*/
-    /*임시 값 - 모바일 버전*/
+    /* 임시 값 - 모바일 버전 */
     width: 375px;
 }
 

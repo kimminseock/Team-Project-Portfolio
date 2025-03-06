@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9788571-6269-484b-9cf7-31bd076b553c" name="Changes" comment="" />
+    <list default="true" id="a9788571-6269-484b-9cf7-31bd076b553c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BottomNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BottomNavigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BottomNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BottomNavigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HeaderContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HeaderContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HeaderTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HeaderTitle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HeaderTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HeaderTitle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SearchHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchHeader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SearchHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/TopNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/TopNavigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/TopNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/TopNavigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Write.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Write.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/openAI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/openAI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountCalender.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountCalender.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountCalender.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountCalender.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountDaily.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountDaily.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountDaily.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountDaily.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountEdit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountEdit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountEdit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountEdit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountFilter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountFilter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountFilter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountMonth.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountMonth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountMonth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountMonth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountSeacrch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountSeacrch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountSearch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountSettlement.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountSettlement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountSettlement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountSettlement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountWrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountWrite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AccountWrite.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AccountWrite.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AiPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AiPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AiPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AiPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MorePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MorePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MorePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MorePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsExpense.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsExpense.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsExpense.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsExpense.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsIncome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsIncome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsIncome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsIncome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WriteExpense.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WriteExpense.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WriteExpense.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WriteExpense.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WriteIncome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WriteIncome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WriteIncome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WriteIncome.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +77,12 @@
     &quot;assignee&quot;: &quot;kimminseock&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kimminseock/Team-Project-Portfolio.git&quot;,
-    &quot;accountId&quot;: &quot;feb6d1d3-ff3f-4fbc-bdea-714bd397bfdc&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kimminseock/React_Team_Portfolio.git",
+    "accountId": "feb6d1d3-ff3f-4fbc-bdea-714bd397bfdc"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -42,22 +91,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/WebstormProjects/react_paylog1&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "C:/Users/user/WebstormProjects/react_paylog1",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm start.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\react_paylog1\src\pages" />
@@ -85,7 +136,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -137,6 +188,7 @@
       <workItem from="1737900009743" duration="122000" />
       <workItem from="1737900236482" duration="211000" />
       <workItem from="1737900487432" duration="873000" />
+      <workItem from="1741251796220" duration="1190000" />
     </task>
     <servers />
   </component>

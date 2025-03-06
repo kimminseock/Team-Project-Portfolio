@@ -2,7 +2,7 @@ import './BottomNavigation.css'
 import {NavLink, useLocation} from "react-router-dom";
 const BottomNavigation = () => {
     const location = useLocation();
-    // "가계부" 메뉴가 활성화되었는지 확인
+    // "가계부" 메뉴가 활성화되었는지 확인.
     const isActiveAccountBook = location.pathname === '/' || location.pathname === '/month' || location.pathname === '/calender' || location.pathname === '/settlement';
     return (
         // 241206 수정

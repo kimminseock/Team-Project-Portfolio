@@ -32,7 +32,7 @@ const StatisticsExpense = ({data = []}) => {
 
     const totalExpense = sortedData.reduce((sum, item) => sum + item.expense, 0);
 
-    // 수정
+    // 수정 완
     // 클릭된 항목의 카테고리와 그 카테고리가 전체 지출에서 차지하는 비율을 상태로 저장
     const handleClick = (e) => {
         const percentage = ((e.value / totalExpense) * 100).toFixed(0);

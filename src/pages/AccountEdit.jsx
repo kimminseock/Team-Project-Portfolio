@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import './AccountEdit.css';
 
-// 수정 - 2024-12-10
+// 수정 - 2024-12-10.
 const AccountEdit = ({ onUpdateItem, onDeleteData }) => {
     const location = useLocation();
     const navigate = useNavigate();

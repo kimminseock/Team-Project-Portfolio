@@ -59,7 +59,7 @@ const AccountMonth = ({ data }) => {
         return weeklyData.map((week) => {
             const weekItems = data.filter((item) => {
                 const itemDate = dayjs(item.date);
-                // itemDate가 week.start와 week.end 사이에 있는지 확인
+                // itemDate가 week.start와 week.end 사이에 있는지 확인.
                 return itemDate.isBetween(week.start, week.end, 'day', '[]');
             });
             const totalIncome = weekItems.reduce((sum, item) => sum + item.income, 0);

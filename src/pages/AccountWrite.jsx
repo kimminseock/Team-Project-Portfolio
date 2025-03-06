@@ -5,7 +5,7 @@ import './AccountWrite.css'
 
 const AccountWrite = ({ currentPage, onPageChange, addData}) => {
     const navigate = useNavigate();
-    // 수정본 새로 생긴 코드 뒤로가기 버튼 코드
+    // 수정본 새로 생긴 코드 뒤로가기 버튼 코드.
     const goback = () => {
         navigate(-1)
     }

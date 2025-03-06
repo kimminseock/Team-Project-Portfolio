@@ -25,7 +25,7 @@ const AiPage = ({onSend, messages = []}) => {
         setMessage(event.target.value);
     }
 
-// enter 입력시에 전송.
+// enter 입력시에 전송
     const onKeyUp = (event) => {
         if(event.key === 'Enter') {
             onClickSubmit();

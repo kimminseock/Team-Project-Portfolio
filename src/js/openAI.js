@@ -4,7 +4,7 @@ const openAI = {
     apiKey: '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',
     url: 'https://api.openai.com/v1/chat/completions',
     model: 'gpt-4o-mini-2024-07-18',
-    maxLength: 200, // 응답의 길이
+    maxLength: 200, // 응답의 길이.
     temperature: 0.5, // 응답의 창의성 (0.0 ~ 1.0) 창의성을 올리면 엉뚱한 답변이 나올수 있음.
     send: async (messages, message, callback, data) => {
         try {

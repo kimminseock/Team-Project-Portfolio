@@ -29,7 +29,7 @@ const MorePage = ({data, fileName}) => {
         // 3. 워크북에 워크시트 추가
         XLSX.utils.book_append_sheet(workbook, worksheet, "가계부 데이터");
 
-        // 4. 엑셀 파일 생성 및 다운로드
+        // 4. 엑셀 파일 생성 및 다운로드 가능
         const excelBuffer = XLSX.write(workbook, {
             bookType: "xlsx",
             type: "array",

@@ -21,7 +21,7 @@ const WriteIncome = ({addData}) => {
         // value : 입력된 값
         const { name, value } = e.target;
         if (name === "income") {
-            // 숫자가 아니거나 10억을 넘는 경우 업데이트 차단
+            // 숫자가 아니거나 10억을 넘는 경우 업데이트 차단.
             if (isNaN(value) || parseInt(value) > 1000000000 ||  parseInt(value) < 0) {
                 return;
             }

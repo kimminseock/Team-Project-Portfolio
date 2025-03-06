@@ -2,7 +2,7 @@ import {NavLink, useNavigate} from "react-router-dom";
 import './TopNavigation.css'
 const TopNavigation = () => {
     return (
-        // 수정
+        // 수정 완
         <nav className="TopNavigation">
             <ul>
                 <li>

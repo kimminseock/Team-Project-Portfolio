@@ -22,7 +22,7 @@ const WriteExpense = ({addData}) => {
         const {name, value} = e.target;
         // 금액 필드의 값이 변경될 때
         if (name === "expense") {
-            // 숫자가 아니거나 10억을 넘는 경우 업데이트 차단.
+            // 숫자가 아니거나 10억을 넘는 경우 업데이트 차단
             if (isNaN(value) || parseInt(value) > 1000000000 || parseInt(value) < 0) {
                 return;
             }

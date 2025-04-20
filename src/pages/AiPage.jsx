@@ -6,7 +6,7 @@ const AiPage = ({onSend, messages = []}) => {
     const [message, setMessage] = useState('');
     const containerRef = useRef(null);
 
-    // 리렌더링시에 스크롤을 항상 맨 아래로 내림
+    // 리렌더링시에 스크롤을 항상 맨 아래로 내림.
     useEffect(() => {
         if(containerRef.current) {
             containerRef.current.scrollTop = containerRef.current.scrollHeight;

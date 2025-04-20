@@ -12,8 +12,8 @@
 
 .StatisticsPage .button-wrapper button {
     display: block;
-    flex-grow: 1;
     height: 55px;
+    flex-grow: 1;
     border: none;
     font-size: 22px;
     font-weight: bold;

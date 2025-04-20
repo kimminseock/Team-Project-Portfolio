@@ -180,7 +180,7 @@ function App() { // useLocation을 쓰기 위해 별도로 만든 함수
         setData([]);
     };
 
-    // 이전/다음 월 이동 함수
+    // 이전 / 다음 월 이동 함수
     const handlePrevMonth = () => setCurrentDate((prev) => new Date(prev.getFullYear(), prev.getMonth() - 1));
     const handleNextMonth = () => setCurrentDate((prev) => new Date(prev.getFullYear(), prev.getMonth() + 1));
 

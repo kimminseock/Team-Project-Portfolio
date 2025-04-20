@@ -52,7 +52,7 @@ const AccountMonth = ({ data }) => {
         return weeks;
     };
 
-    // 시작 날짜(monthStart)와 종료 날짜(monthEnd)를 받아서, 해당 월의 주별 데이터와 수입/지출 합계를 계산하여 반환
+    // 시작 날짜(monthStart)와 종료 날짜(monthEnd)를 받아서, 해당 월의 주별 데이터와 수입 / 지출 합계를 계산하여 반환
     const getWeeklyDataForMonth = (monthStart, monthEnd) => {
         const weeklyData = getWeeklyData(monthStart, monthEnd);
 

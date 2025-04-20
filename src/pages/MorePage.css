@@ -21,8 +21,8 @@
 .setting .setting_backup > div,
 .setting .setting_support > div {
     display: flex;
-    justify-content: space-between;
     height: 55px;
+    justify-content: space-between;
     align-items: center;
 }
 

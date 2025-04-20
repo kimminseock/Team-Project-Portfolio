@@ -15,9 +15,9 @@
 
 .StatisticsIncome .income-list ul li {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 80px;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .StatisticsIncome .income-list ul li > div {

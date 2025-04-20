@@ -36,7 +36,7 @@ const AccountSettlement = ({ data, targetBudget, updateTargetBudget }) => {
     };
 
     // 목표 금액과 지출이 0원 이상인 카테고리만 필터링
-    // 수정본 코드 추가 - 2024-12-10.
+    // 수정본 코드 추가 - 2024-12-10
     const filteredCategories = categories.filter(
         (category) => targetBudget[category] > 0
     );

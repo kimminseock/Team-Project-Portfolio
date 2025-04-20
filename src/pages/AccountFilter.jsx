@@ -5,7 +5,7 @@ import './AccountFilter.css';
 const AccountFilter = ({ data, currentDate, onPrevMonth, onNextMonth }) => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth() + 1;
-    // 탭바의 수입, 지출 자산 중 먼저 보이는 페이지를 자산으로 하기 위해 초기값 자산으로 설정
+    // 탭바의 수입, 지출, 자산 중 먼저 보이는 페이지를 자산으로 하기 위해 초기값 자산으로 설정
     const [currentTab, setCurrentTab] = useState("자산");
     // 카테고리 저장하는 배열
     const [selectedCategories, setSelectedCategories] = useState([]);

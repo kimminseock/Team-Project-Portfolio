@@ -10,7 +10,7 @@ const AccountDaily = ({data, currentMonth, currentYear}) => {
     useEffect(() => {
         // 처음 방문 시 설명 창 1초간 표시.
         if (isTooltipModal) {
-            setIsTooltip(true); // 설명 창 표시
+            setIsTooltip(true); // 설명 창 표시.
             const timer = setTimeout(() => {
                 setIsTooltip(false); // 1초 후 숨김
                 setIsTooltipModal(false); // 처음 방문 처리 완료

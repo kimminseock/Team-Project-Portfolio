@@ -3,7 +3,7 @@ import { PieChart, Pie, Tooltip, Cell, Legend } from "recharts";
 import React, { useState } from "react";
 
 const StatisticsIncome = ({data = []}) => {
-    // 수정 완
+    // 수정 완.
     const [clickedData, setClickedData] = useState('');
 
     // 색 피그마 지정 색으로 수정

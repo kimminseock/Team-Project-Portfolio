@@ -5,7 +5,7 @@ import './MorePage.css'
 
 const MorePage = ({data, fileName}) => {
     const handleExport = () => {
-        // 1. 데이터 변환 및 총 지출비 추가
+        // 1. 데이터 변환 및 총 지출비 추가.
         const totalExpense = data.reduce((sum, item) => sum + item.expense, 0); // 총 지출비 계산
         const totalIcome = data.reduce((sum, item) => sum + item.income, 0);
         const transformedData = [

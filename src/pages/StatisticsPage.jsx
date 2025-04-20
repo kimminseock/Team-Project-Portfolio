@@ -4,7 +4,7 @@ import './StatisticsPage.css'
 
 const StatisticsPage = ({currentPage, onPageChange, data}) => {
     return(
-        // 수정 완
+        // 수정 완.
         <div className="StatisticsPage">
             {/* 수입, 지출 버튼 */}
             <div className="button-wrapper">

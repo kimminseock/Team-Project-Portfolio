@@ -50,7 +50,7 @@ const AccountCalender = ({data, currentDate}) => {
                     const currentDate = new Date();
                     const currentDay = currentDate.getDate();
 
-                    // data에 해당 날짜가 없으면 빈 셀로 표시
+                    // data에 해당 날짜가 없으면 빈 셀로 표시.
                     return (
                         <div key={formattedDate} className="calendar-cell">
                             <div className={`calendar-date ${currentDay === day.getDate() ? 'span' : ''}`}>{day.getDate()}</div>
